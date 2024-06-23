@@ -1,2 +1,5 @@
-package model;public class TypeBus {
-}
+package model;
+
+ public enum TypeBus {
+        TATA, CAR_RAPIDE, DDK
+ }

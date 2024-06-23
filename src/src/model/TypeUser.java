@@ -1,2 +1,6 @@
-package model;public class TypeUser {
+package model;
+
+public enum TypeUser {
+    RP, RT, CR
 }
+ 

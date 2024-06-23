@@ -1,2 +1,6 @@
-package model;public class TypePermis {
+package model;
+
+public enum TypePermis {
+    LOURD, LEGER
 }
+ 

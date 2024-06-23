@@ -1,2 +1,5 @@
-package model;public class TypeTrajet {
-}
+package model;
+
+public enum TypeTrajet {
+    ALLER, RETOUR
+} 

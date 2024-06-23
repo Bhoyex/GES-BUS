@@ -1,0 +1,19 @@
+Projet 3:Gestion des Bus
+Une société de gestion d'autobus urbains  fait appel à vous pour la réalisation d’une  application de gestion de bus.
+Le Responsable de Parc (RP) a la possibilité d'ajouter, lister ou de mettre hors circulation un bus(id, immatriculation,type(Tata|Car Rapide |DDK), kilométrage, nbre de place).On peut arrêter  la mise en circulation d’un bus  à cause de panne ou de la vieillesse.Le RP enregistre conducteur(id, matricule, nom prénom,téléphone,type permis[Lourd|Leger] )
+ Le Responsable de Trajet (RT)  enregistre les lignes(id, numéro ,nombre kilomètre,le tarif),les stations (id, numéro, nom, adresse).Dans une ligne on peut avoir plusieurs arrêts(id, numéro,nom) ,une station départ et une station d’arriver .Aussi plusieurs lignes peuvent se partager des arrêts .
+Chaque matinée le RT planifie les trajets (id, type[Aller | Retour ] ), date,nbre ticket mis à disposition du receveur) d'un bus en lui affectant une ligne et un conducteur disponible . Un conducteur est affecté à un seul trajet dans la journée.
+Plusieurs bus peuvent être affectés à la même ligne durant la semaine.
+A la fin de la journée le RT valide les trajets réellement effectués par un bus et y ajoute le nombre de tickets réellement vendus.
+
+On voudrait aussi avoir les fonctionnalités suivantes:
+    CR Bus, Conducteur, Lignes, Stations, Arrêt
+    Affecter des arrêts à une ligne
+    Planifier trajets
+
+On voudrais avoir les statiques suivantes:
+     Les lignes disponibles à une date ,
+     Les bus disponibles par ligne
+     Les bus en panne
+     Le  nombre ticket vendu par trajet
+     Le Montant total des tickets vendus par bus et par ligne
