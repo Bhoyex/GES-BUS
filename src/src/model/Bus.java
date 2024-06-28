@@ -21,6 +21,9 @@ public class Bus {
         this.enService = enService;
     }
 
+    public Bus(String immatriculation, String marque, int prix, int nombrePlaces, Object ligne, boolean enService) {
+    }
+
     public int getId() {
         return id;
     }

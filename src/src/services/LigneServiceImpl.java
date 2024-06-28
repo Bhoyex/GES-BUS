@@ -18,4 +18,9 @@ public class LigneServiceImpl implements LigneService {
         // Logique pour obtenir les lignes disponibles à une date donnée
         return lignes;
     }
+
+    @Override
+    public Object getLigne(int ligneId) {
+        return null;
+    }
 }

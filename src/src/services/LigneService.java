@@ -7,4 +7,6 @@ import java.util.List;
 public interface LigneService {
     void addLigne(Ligne ligne);
     List<Ligne> getLignesDisponibles(String date);
+
+    Object getLigne(int ligneId);
 }
